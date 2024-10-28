@@ -1,8 +1,6 @@
-# 
+# Services Manager Linux 
 
 `systemctl` is a powerful command-line tool in Linux systems, particularly those using systemd as their system and service manager. It provides a comprehensive way to manage system services and units, which are essentially configurations that define how various software components, processes, and hardware operate. 
-
-
 
 
 * **Starting, stopping, and restarting services:** 
@@ -30,3 +28,5 @@
    - `systemctl poweroff`: Shuts down the system.
    - `systemctl reboot`: Restarts the system.
 
+
+sudo systemctl list-unit-files | grep docker
